@@ -66,6 +66,7 @@ listen:
     port: 5280
     ip: "::"
     module: ejabberd_http
+    http_bind: true
     request_handlers:
       "/admin": ejabberd_web_admin
   -
